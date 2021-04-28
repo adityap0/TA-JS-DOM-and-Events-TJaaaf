@@ -33,3 +33,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.heading{
+  padding: 20px 0;
+  text-align: center;
+}
+.flex52{
+  width: 5.263%;
+  height: 5rem;
+}
+.box-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+.small-box{
+  border: 1px solid;
+  text-align: center;
+}
