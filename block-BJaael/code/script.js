@@ -10,5 +10,3 @@ box.style.backgroundColor = color;
 box.children[0].innerText = Math.random().toString(10).slice(2,5);
 })
 })
-
-
