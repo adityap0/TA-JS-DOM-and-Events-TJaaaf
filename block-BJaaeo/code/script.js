@@ -6,7 +6,7 @@ let final = document.querySelector('.equal');
 root.addEventListener('click', clickHandlenum1);
 function clickHandlenum1(event){
     let a = Number(event.target.innerText);
-
+    
     console.log(`first num ${a}`);
 
     opr.addEventListener('click', handleOpr)
