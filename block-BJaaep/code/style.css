@@ -97,6 +97,22 @@ body {
   color: white;
   cursor: pointer;
 }
+.box-2 {
+  margin: 5px;
+  background-color: #444;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
 .text {
   height: 100%;
   display: flex;
