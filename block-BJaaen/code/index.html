@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper and Scissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3f028b66aa.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="game-box">
+      <h1 class="heading">Rock Paper Scissors</h1>
+      <div class="user-info">
+        <span>You - </span>
+        <span class="score"></span>
+        <span class="choice"></span>
+      </div>
+      <div class="moves">
+        <i class="fa fa-hand-rock-o" aria-hidden="true" data-hand= "Rock"></i>
+        <i class="fa fa-hand-paper-o" aria-hidden="true" data-hand= "Paper"></i>
+        <i class="fa fa-hand-scissors-o" aria-hidden="true" data-hand="Scissors"></i>
+      </div>
+
+      <div class="user-info">
+        <span>Computer - </span>
+        <span class="score"></span>
+        <span class="choice"></span>
+      </div>
+      <div class="moves-comp">
+        <i class="fa fa-hand-rock-o" aria-hidden="true" style="color: red;" data-hand= "Rock" data-num=0></i>
+        <i class="fa fa-hand-paper-o" aria-hidden="true" style="color: red;" data-hand= "Paper" data-num=1></i>
+        <i class="fa fa-hand-scissors-o" aria-hidden="true" style="color: red;" data-hand= "Scissors" data-num=2></i>
+      </div>
+      <div class="refresh">
+        <i class="fas fa-sync-alt"></i>
+        <span></span>
+      </div>
+      
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
