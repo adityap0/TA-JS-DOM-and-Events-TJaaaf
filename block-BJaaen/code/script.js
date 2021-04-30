@@ -19,7 +19,6 @@ function usereventHandle( event)
 {   
     let computersDecision = "";
     let yourChoice = event.target.dataset.hand;
-    console.dir(`Your choice is ${yourChoice}`);
     let compChoice = getRandomInt(3);
     compMove.forEach((cpu)=>{
         if(Number(cpu.dataset.num)===compChoice)
@@ -27,8 +26,6 @@ function usereventHandle( event)
             computersDecision = cpu.dataset.hand;
         }
     });
-    console.log(`Computer's Choice is ${computersDecision}`);
-   
    switch(yourChoice)
    {
        case 'Paper' : userChoice.innerText = '→Paper';
@@ -41,7 +38,6 @@ function usereventHandle( event)
                       userCount += 1;
                       userScore.innerText = userCount}
                       else{result.innerText = 'Its a Tie!'}; 
-                      
                       break;
 
       
