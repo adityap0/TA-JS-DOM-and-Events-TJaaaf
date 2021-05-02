@@ -35,3 +35,44 @@ img {
   max-width: 100%;
   height: auto;
 }
+body{
+  background: pink;
+}
+.validation{
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.validation div label{
+  padding-top: 20px;
+  font-size: 18px;
+}
+.validation div input{
+  padding: 10px 0;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.validation div input:hover{
+  border: 3px solid rgb(157, 157, 231);
+}
+input:valid{
+  border: 4px solid rgb(159, 206, 159);
+}
+button{
+  margin-top: 40px;
+  padding: 15px;
+  background: rgb(235, 160, 160);
+  border: 0;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+h1{
+  background: rgb(212, 212, 212);
+}
+.error{
+  border: 1px solid red;
+}
