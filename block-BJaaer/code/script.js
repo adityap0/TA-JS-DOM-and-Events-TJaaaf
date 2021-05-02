@@ -8,6 +8,7 @@ let userInfo = {};
 form.addEventListener('submit', handleSubmit)
 function handleSubmit(event){
 event.preventDefault();
+
 userInfo.name = form.elements[0].value;
 userInfo.email = form.elements[1].value;
 userInfo.movies = form.elements[2].value;
@@ -73,16 +74,6 @@ let div = document.createElement('div');
     root.append(div);
 }
 
-{/* <div class="modal">
-<p class="close">Close</p>
-<h1 class="heading">Hello Sameer</h1>
-<span class="modal-element">Email : test@gmail.com</span>
-<span class="modal-element">You Love : Movies</span>
-<span class="modal-element">Color : ####</span>
-<span class="modal-element">Ratings: 8</span>
-<span class="modal-element">book Genre : fcsdewfw</span>
-<span class="modal-element">You Agree to Terms and conditions</span>
-</div> */}
 
 
 
