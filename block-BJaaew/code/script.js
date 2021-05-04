@@ -9,7 +9,6 @@ function handleInput(event) {
     let final = [];
     let houseName = event.target.innerText;
     final = got.houses.filter((house) => {
-        console.log(searchInput);
         if (house.name.toLowerCase().includes(searchInput)) {
             return house;
         }
