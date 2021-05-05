@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "To do Application",
+    "version": "1.0",
+    "description": "Add daily TODO",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
